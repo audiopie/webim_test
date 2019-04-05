@@ -130,9 +130,9 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend', # бекенд классической аутентификации, чтобы работала авторизация через обычный логин и пароль
 )
 # ID приложения
-SOCIAL_AUTH_VK_OAUTH2_KEY = '6880896' # не забудь вставить
+SOCIAL_AUTH_VK_OAUTH2_KEY = '' 
 # Секретный ключ
-SOCIAL_AUTH_VK_OAUTH2_SECRET = 'DSAA61pR1oaxtBsHkgYN'
+SOCIAL_AUTH_VK_OAUTH2_SECRET = ''
 SOCIAL_AUTH_VK_OAUTH2_SCOPE = [
   'notify',
   'friends',
